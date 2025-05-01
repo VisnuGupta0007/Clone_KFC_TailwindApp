@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KFC</title>
+  <link rel="stylesheet" href="output.css">
+
+  <!-- icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <section class="navbar  fixed flex w-full justify-between px-20 h-28  bg-white shadow">
+    <div class="flex justify-center items-center gap-12  ">
+      <img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="" class=" h-20 w-20  cursor-pointer">
+      <ul class="text-xl font-bold  cursor-pointer">Menu</ul>
+      <ul class="text-xl font-bold  cursor-pointer ">Deals</ul>
+    </div>
+
+    <div class="flex justify-center items-center gap-12 ">
+      <ul class="text-xl font-bold    cursor-pointer"><i class="fa-solid fa-user-tie"></i> Sign in</ul>
+      <img
+        src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg"
+        alt="" class=" h-14 w-14  cursor-pointer">
+    </div>
+  </section>
+  <hr class="mx-24 ">
+
+  <section class="flex items-center justify-center gap-6 h-20 bg-black px-4 mt-32">
+    <h1 class="text-white text-center text-md  font-bold">
+      LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN
+    </h1>
+    <button class="bg-red-600 font-bold text-white px-4 py-2 rounded-4xl hover:bg-red-900 transition">
+      Start Order
+    </button>
+  </section>
+
+
+  <section class="HeroSection mt-28">
+    <h1 class="ml-20 text-3xl font-bold">BROWSE MENU CATEGORIES</h1>
+    <div class="grid grid-cols-4 gap-5 mx-20 mt-10">
+      <div class=" col-span-2 row-span-2">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/5VAknII6FG7AxLdAEfHydN/c653a427986391d450823dcfff553fc7/KFC-category-EPIC-Bucket-4_Big-12_-28th-JAN_1.jpg?fm=webp&fit=fill"
+          alt="" class="h-96 w-full">
+        <div class="h-20 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">ZINGER: BUY 1 GET 1</h1>
+        </div>
+
+      </div>
+
+      <div class="">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/4fK0olkWqdAecE1oKngwoF/6fcc5c12ed61b551dce7a58544d05363/CAT181.jpg?fm=webp&fit=fill"
+          alt="" class="h-40 w-full">
+        <div class="h-14 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">MATCH DAY COMBO</h1>
+        </div>
+
+      </div>
+
+      <div class="">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/2OkWL1jHjLcPXJ94ID2zfT/93dd7f9a366a4da5fde0473e463b80bb/CAT158?fm=webp&fit=fill"
+          alt="" class="h-40 w-full">
+        <div class="h-14 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">BOX MEALS</h1>
+        </div>
+
+      </div>
+
+      <div class=" ">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/3KOsoznTafrVch81RxvY0D/ea4541216847d272e17cec7b7b19368a/KFC-category-Variety-Bucket-Dine-In-28th-JAN.jpg?fm=webp&fit=fill"
+          alt="" class="h-40 w-full">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold">VARIETY BUCKETS</h1>
+        </div>
+
+      </div>
+
+      <div class=" ">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/2MisPscDV1k33qLnGwQ2il/14bdab6e4b9e25e1b91a8578df5097f2/CAT86?fm=webp&fit=fill"
+          alt="" class="h-40 w-full">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">CHICKEN BUCKET</h1>
+        </div>
+
+      </div>
+
+      <div class="">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/782RGpnmm4aFsY2fnFAJoH/f8b98a12949b08134595c9dacb764103/TILES_Burgers_465x327_A.jpg?fm=webp&fit=fill"
+          alt="" class="h-48 w-full">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <div class="h-12 bg-gray-100 flex items-center justify-center">
+            <h1 class="text-center text-base font-bold ">BURGERS</h1>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/5VQAImh8fghx8cYtmjRBxu/050c6b65545546ecca314321a5dddc15/CAT89?fm=webp&fit=fill"
+          alt="" class="h-48 w-full">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">SNACKS</h1>
+        </div>
+
+      </div>
+
+      <div class="">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/5V1Umta0kqz1a6v5M5CtqZ/b5230b45fc78675ceaf6baaba6004caa/CAT228?fm=webp&fit=fill"
+          alt="" class="h-48 w-full">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">VALUE LUNCH SPECIALS</h1>
+        </div>
+
+      </div>
+
+      <div class="">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/36fmhTI0ExjACUo2G23zqT/663c65a557bdf331f3936df3682a3f8d/CAT213?fm=webp&fit=fill"
+          alt="" class="h-48 w-full">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">RICE BOWLZ</h1>
+        </div>
+
+      </div>
+
+      <div class="">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/4x62eREckn70J5KhVZhqog/91b4e9e8b991375e2e3061972b1a06ff/CAT92?fm=webp&fit=fill"
+          alt="" class="h-48 w-full">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">BEVERAGE & DESSERTS</h1>
+        </div>
+
+      </div>
+
+      <div class="">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/64GBn0d72pghiWpAet3THX/7dc696402825e00e800709d8e22b026c/CAT301?fm=webp&fit=fill"
+          alt="" class="h-48 w-full">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">VEG</h1>
+        </div>
+
+      </div>
+
+      <div class=" col-span-2">
+        <img src="https://exchange4media.gumlet.io/news-photo/96110-ElectionKFC.jpg" alt="" class="w-full h-48">
+        <div class="h-16 bg-gray-100 flex items-center justify-center">
+          <h1 class="text-center text-base font-bold ">Veiw All Menu</h1>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+  
+
+
+  <div class="relative w-full bg-white mt-16 py-6">
+    <div class="flex gap-3 ml-20">
+      <span class="w-5 h-10 bg-red-600"></span>
+      <span class="w-5 h-10 bg-red-600"></span>
+      <span class="w-5 h-10 bg-red-600"></span>
+    </div>
+    <h1 class="ml-20 mt-5 text-2xl font-bold">SAVE MORE AS YOU ORDER</h1>
+
+    <!-- Left Scroller -->
+    <button class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-md rounded-full p-2"
+      onclick="scrollLeft()">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+
+    <!-- Right Scroller  -->
+    <button class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-md rounded-full p-2"
+      onclick="scrollRight()">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+
+    <div id="carousel" class="flex gap-6 overflow-x-auto px-10  mt-10 mx-8">
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/sm/CHKZINGER.jpg?ver=66.74"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold">FREE CLASSIC ZINGER</h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 499</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/sm/ADDCHK99.jpg?ver=66.75"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold"> 2PC HOT & CRIPY <br> CHICKEN @99</h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 499</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/sm/BIGSAVE.jpg?ver=66.75"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold"> UPTO RS 100 OFF </h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 699</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xs/PHP75.jpg?ver=66.75"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold"> RS 70 OFF </h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 599</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xs/VEGZINGER.jpg?ver=66.75"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold">FREE VEG ZINGER</h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 499</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xs/FREEROLL.jpg?ver=66.75"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold">FREE DOUBLE CHICKEN ROLL</h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 999</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xs/FREESTRIPS.jpg?ver=66.75"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold">FREE STRIPS (3PC) </h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 399</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xs/FREERPC.jpg?ver=66.75"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold">FREE POPCORN (REG)</h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 399</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/sm/CHKZINGER.jpg?ver=66.74"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold">FREE CLASSIC ZINGER Soonnnnnnnnnnnnnnnnn</h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 499</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+      <div class="  min-w-[250px] bg-gray-50 rounded-2xl shadow-md overflow-hidden relative">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xs/KFC50.jpg?ver=66.75"
+          alt="Zinger Burger" class="w-full h-56 object-contain bg-gray-50" />
+
+        <h2 class="text-center font-bold">50% OFF TODAY </h2>
+        <p class="text-center text-sm text-gray-500 mt-3">Min. Order Value 250</p>
+        <ul class="text-center underline mt-5 text-gray-500 text-sm">View Details</ul>
+
+        <div class="text-center mt-3">
+          <button class="bg-black text-white text-xs mt-5 items-center px-3 py-1 rounded-full mb-10">Apply
+            Offer</button>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <section class="footer text-white bg-black px-6 sm:px-10 md:px-20 py-10 mt-20">
+    <div class="flex flex-col md:flex-row md:justify-between gap-10 md:gap-4">
+  
+    
+      <div class="flex justify-center md:block">
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/25FSYFuEtGct8NSrtpKe6d/b602f6fe0bf294e6a6dff5d7648bf594/KFC_Logo.svg?h=120&w=120&fm=webp&fit=fill"
+          alt="KFC Logo" class="h-16 w-16" />
+      </div>
+  
+     
+      <div class="flex flex-col md:flex-row md:space-x-10 text-center md:text-left gap-6 md:gap-0">
+        
+        <div>
+          <h2 class="font-bold mb-2">KFC India</h2>
+          <ul class="space-y-1">
+            <li>About KFC</li>
+            <li>KFC Care</li>
+            <li>Careers</li>
+            <li>Our Golden Past</li>
+            <li>Responsible Disclosure</li>
+          </ul>
+        </div>
+  
+        
+        <div>
+          <h2 class="font-bold mb-2">Legal</h2>
+          <ul class="space-y-1">
+            <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Disclaimer</li>
+            <li>Caution Notice</li>
+          </ul>
+        </div>
+  
+        
+        <div>
+          <h2 class="font-bold mb-2">KFC Food</h2>
+          <ul class="space-y-1">
+            <li>Menu</li>
+            <li>Order Lookup</li>
+            <li>Gift Card</li>
+            <li>Nutrition & Allergen</li>
+          </ul>
+        </div>
+  
+        
+        <div>
+          <h2 class="font-bold mb-2">Support</h2>
+          <ul class="space-y-1">
+            <li>Get Help</li>
+            <li>Contact Us</li>
+            <li>KFC Feedback</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+  
+     
+      <div class="flex items-center justify-center md:block">
+        <span class="text-red-600 mr-2"><i class="fa-solid fa-location-dot"></i></span>
+        <a href="#" class="underline">Find A KFC</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="footer-2 bg-black py-4">
+    <div class="flex flex-col md:flex-row items-center justify-between px-6 sm:px-10 md:px-20 gap-4">
+      
+   
+      <div class="text-center text-white text-sm">
+        Copyright © KFC Corporation 2025. All rights reserved.
+      </div>
+  
+     
+      <div class="flex space-x-4 text-white text-xl">
+        <a href="#" class="hover:text-gray-400 hover:animate-pulse"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="hover:text-gray-400 hover:animate-pulse"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-gray-400 hover:animate-pulse"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+  <script>
+    const carousel = document.getElementById("carousel");
+
+    function scrollLeft() {
+      carousel.scrollBy({ left: -300, behavior: 'smooth' });
+    }
+
+    function scrollRight() {
+      carousel.scrollBy({ left: 300, behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+
+</html>
